@@ -1,0 +1,15 @@
+{
+  "name": "ampersand-version",
+  "version": "1.0.0",
+  "description": "Versioning ampersand modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "find-root": "^0.1.1",
+    "through2": "^0.6.3"
+  }
+}
