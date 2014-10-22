@@ -1,7 +1,7 @@
 {
   "name": "ampersand-version",
   "description": "Transform for making it easy to include version numbers of used ampersand modules.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Philip Roberts <phil@latentflip.com>",
   "bugs": "https://github.com/ampersandjs/ampersand-version/issues",
   "dependencies": {
