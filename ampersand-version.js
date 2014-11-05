@@ -13,9 +13,9 @@ module.exports = function (file) {
     var version = pack.version;
 
     var codeString = ';' + [
-        'window.ampersand = window.ampersand || {};',
-        'window.ampersand["' + name + '"] = window.ampersand["' + name + '"] || [];',
-        'window.ampersand["' + name + '"].push("' + version + '");'
+        'global.ampersand = global.ampersand || {};',
+        'global.ampersand["' + name + '"] = global.ampersand["' + name + '"] || [];',
+        'global.ampersand["' + name + '"].push("' + version + '");'
     ].join('');
 
     return through(function (buf, enc, next) {
