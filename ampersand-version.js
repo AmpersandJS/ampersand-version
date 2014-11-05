@@ -13,9 +13,11 @@ module.exports = function (file) {
     var version = pack.version;
 
     var codeString = ';' + [
-        'window.ampersand = window.ampersand || {};',
-        'window.ampersand["' + name + '"] = window.ampersand["' + name + '"] || [];',
-        'window.ampersand["' + name + '"].push("' + version + '");'
+        'if (typeof window !== "undefined") {',
+        '  window.ampersand = window.ampersand || {};',
+        '  window.ampersand["' + name + '"] = window.ampersand["' + name + '"] || [];',
+        '  window.ampersand["' + name + '"].push("' + version + '");',
+        '}'
     ].join('');
 
     return through(function (buf, enc, next) {
