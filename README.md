@@ -19,7 +19,7 @@
 
 ## why?
 
-Now it will use a browserifiy transform to create if necessary and add it's version to the `window.ampersand` just for reporting purposes. 
+Now it will use a browserifiy transform to create if necessary and add its version to the `window.ampersand` just for reporting purposes. 
 
 Now you can open the console on any ampersand site and see what ampersand modules it's using:
 
