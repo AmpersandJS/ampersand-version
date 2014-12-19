@@ -19,9 +19,9 @@
 
 ## why?
 
-Now it will use a browserifiy transform to create if necessary and add its version to the `window.ampersand` just for reporting purposes. 
+Now it will use a browserify transform to create if necessary and add its version to the `window.ampersand` object just for reporting purposes. 
 
-Now you can open the console on any ampersand site and see what ampersand modules it's using:
+You can then open the console on any ampersand site and see what ampersand modules it's using:
 
 ![ampersand-version-demo](https://i.cloudup.com/B8SuBDceTH-3000x3000.png)
 
